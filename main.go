@@ -25,7 +25,7 @@ func main() {
 		}
 	}
 
-	ticker := time.NewTicker(5 * time.Second)
+	ticker := time.NewTicker(5 * time.Minute)
 	defer ticker.Stop()
 
 	var wg sync.WaitGroup
